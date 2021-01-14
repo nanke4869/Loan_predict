@@ -1,0 +1,104 @@
+2020-12-11 19:35:50,434 - run.py[line:36] - INFO: 
+------------logistic_regression------------
+2020-12-11 19:36:31,187 - run.py[line:66] - INFO: logreg_grid.score: 0.8849411764705882
+2020-12-11 19:36:31,271 - run.py[line:73] - INFO: 
+------------random_forest------------
+2020-12-11 20:48:28,009 - run.py[line:89] - INFO: 0.9243882352941176
+2020-12-11 20:48:28,009 - run.py[line:90] - INFO: {'criterion': 'entropy', 'max_depth': 15, 'n_estimators': 155}
+2020-12-11 20:48:28,009 - run.py[line:91] - INFO: RandomForestClassifier(bootstrap=True, class_weight=None, criterion='entropy',
+                       max_depth=15, max_features='auto', max_leaf_nodes=None,
+                       min_impurity_decrease=0.0, min_impurity_split=None,
+                       min_samples_leaf=1, min_samples_split=2,
+                       min_weight_fraction_leaf=0.0, n_estimators=155,
+                       n_jobs=None, oob_score=False, random_state=None,
+                       verbose=0, warm_start=False)
+2020-12-11 20:48:33,568 - run.py[line:95] - INFO: rf_grid.score: 0.9259176470588235
+2020-12-11 20:48:33,940 - run.py[line:102] - INFO: 
+------------decision_tree------------
+2020-12-11 21:06:32,366 - run.py[line:118] - INFO: 0.9252
+2020-12-11 21:06:32,367 - run.py[line:119] - INFO: {'criterion': 'gini', 'max_depth': 30, 'max_features': 10}
+2020-12-11 21:06:32,367 - run.py[line:120] - INFO: DecisionTreeClassifier(class_weight=None, criterion='gini', max_depth=30,
+                       max_features=10, max_leaf_nodes=None,
+                       min_impurity_decrease=0.0, min_impurity_split=None,
+                       min_samples_leaf=1, min_samples_split=2,
+                       min_weight_fraction_leaf=0.0, presort=False,
+                       random_state=None, splitter='best')
+2020-12-11 21:06:32,651 - run.py[line:124] - INFO: dectree_grid.score: 0.9309941176470589
+2020-12-11 21:06:32,752 - run.py[line:197] - INFO: 
+------------XGB------------
+2020-12-11 21:24:04,692 - run.py[line:212] - INFO: XGBClassifier_accy: 0.931
+2020-12-11 21:24:07,513 - run.py[line:131] - INFO: 
+------------bagging------------
+2020-12-11 21:48:54,878 - run.py[line:144] - INFO: 0.9250529411764706
+2020-12-11 21:48:54,878 - run.py[line:145] - INFO: {'n_estimators': 160}
+2020-12-11 21:48:54,878 - run.py[line:146] - INFO: BaggingClassifier(base_estimator=None, bootstrap=True, bootstrap_features=False,
+                  max_features=1.0, max_samples=1.0, n_estimators=160,
+                  n_jobs=None, oob_score=False, random_state=None, verbose=0,
+                  warm_start=False)
+2020-12-11 21:49:04,559 - run.py[line:150] - INFO: bagging_grid.score: 0.9319235294117647
+2020-12-11 21:49:05,440 - run.py[line:157] - INFO: 
+------------AdaBoost------------
+2020-12-11 22:09:23,654 - run.py[line:171] - INFO: 0.9246333333333333
+2020-12-11 22:09:23,655 - run.py[line:172] - INFO: {'learning_rate': 1, 'n_estimators': 185}
+2020-12-11 22:09:23,655 - run.py[line:173] - INFO: AdaBoostClassifier(algorithm='SAMME.R', base_estimator=None, learning_rate=1,
+                   n_estimators=185, random_state=None)
+2020-12-11 22:09:30,770 - run.py[line:177] - INFO: adaBoost_grid.score: 0.9249058823529411
+2020-12-11 22:09:31,429 - run.py[line:220] - INFO: 
+------------extra_trees------------
+2020-12-11 22:09:32,621 - run.py[line:226] - INFO: extraTree_accy: 0.933
+2020-12-11 22:09:32,700 - run.py[line:233] - INFO: 
+------------voting------------
+2020-12-11 22:14:27,279 - run.py[line:248] - INFO: voting_accy: 0.932
+2020-12-20 20:10:30,137 - run.py[line:195] - INFO: 
+------------XGB------------
+2020-12-20 20:14:12,050 - run.py[line:210] - INFO: XGBClassifier_accy: 0.929
+2020-12-20 21:30:01,881 - run1.py[line:69] - INFO: 
+------------random_forest------------
+2020-12-20 22:13:42,133 - run2.py[line:69] - INFO: 
+------------random_forest------------
+2020-12-20 22:16:48,810 - run1.py[line:85] - INFO: 0.9244156862745098
+2020-12-20 22:16:48,810 - run1.py[line:86] - INFO: {'criterion': 'gini', 'max_depth': 15, 'n_estimators': 155}
+2020-12-20 22:16:48,810 - run1.py[line:87] - INFO: RandomForestClassifier(bootstrap=True, class_weight=None, criterion='gini',
+                       max_depth=15, max_features='auto', max_leaf_nodes=None,
+                       min_impurity_decrease=0.0, min_impurity_split=None,
+                       min_samples_leaf=1, min_samples_split=2,
+                       min_weight_fraction_leaf=0.0, n_estimators=155,
+                       n_jobs=None, oob_score=False, random_state=None,
+                       verbose=0, warm_start=False)
+2020-12-20 22:17:02,729 - run1.py[line:91] - INFO: rf_grid.score: 0.9261882352941176
+2020-12-20 22:17:03,699 - run1.py[line:98] - INFO: 
+------------decision_tree------------
+2020-12-20 22:34:54,475 - run1.py[line:114] - INFO: 0.9251294117647059
+2020-12-20 22:34:54,475 - run1.py[line:115] - INFO: {'criterion': 'entropy', 'max_depth': 30, 'max_features': 10}
+2020-12-20 22:34:54,475 - run1.py[line:116] - INFO: DecisionTreeClassifier(class_weight=None, criterion='entropy', max_depth=30,
+                       max_features=10, max_leaf_nodes=None,
+                       min_impurity_decrease=0.0, min_impurity_split=None,
+                       min_samples_leaf=1, min_samples_split=2,
+                       min_weight_fraction_leaf=0.0, presort=False,
+                       random_state=None, splitter='best')
+2020-12-20 22:34:54,648 - run1.py[line:120] - INFO: dectree_grid.score: 0.9314705882352942
+2020-12-20 22:34:54,975 - run1.py[line:193] - INFO: 
+------------XGB------------
+2020-12-20 22:43:46,694 - run1.py[line:208] - INFO: XGBClassifier_accy: 0.931
+2020-12-20 22:43:47,901 - run1.py[line:127] - INFO: 
+------------bagging------------
+2020-12-20 23:10:27,222 - run1.py[line:140] - INFO: 0.9250647058823529
+2020-12-20 23:10:27,223 - run1.py[line:141] - INFO: {'n_estimators': 185}
+2020-12-20 23:10:27,223 - run1.py[line:142] - INFO: BaggingClassifier(base_estimator=None, bootstrap=True, bootstrap_features=False,
+                  max_features=1.0, max_samples=1.0, n_estimators=185,
+                  n_jobs=None, oob_score=False, random_state=None, verbose=0,
+                  warm_start=False)
+2020-12-20 23:11:02,269 - run1.py[line:146] - INFO: bagging_grid.score: 0.9319176470588235
+2020-12-20 23:11:05,800 - run1.py[line:153] - INFO: 
+------------AdaBoost------------
+2020-12-20 23:41:15,820 - run1.py[line:167] - INFO: 0.9246333333333333
+2020-12-20 23:41:15,820 - run1.py[line:168] - INFO: {'learning_rate': 1, 'n_estimators': 185}
+2020-12-20 23:41:15,820 - run1.py[line:169] - INFO: AdaBoostClassifier(algorithm='SAMME.R', base_estimator=None, learning_rate=1,
+                   n_estimators=185, random_state=None)
+2020-12-20 23:41:47,016 - run1.py[line:173] - INFO: adaBoost_grid.score: 0.9249058823529411
+2020-12-20 23:41:49,760 - run1.py[line:216] - INFO: 
+------------extra_trees------------
+2020-12-20 23:41:57,927 - run1.py[line:222] - INFO: extraTree_accy: 0.933
+2020-12-20 23:41:58,113 - run1.py[line:229] - INFO: 
+------------voting------------
+2020-12-20 23:52:45,305 - run1.py[line:244] - INFO: voting_accy: 0.933

@@ -1,0 +1,60 @@
+2020-12-20 22:15:05,703 - run2.py[line:69] - INFO: 
+------------random_forest------------
+2020-12-20 22:42:09,279 - run2.py[line:85] - INFO: 0.9245764705882353
+2020-12-20 22:42:09,280 - run2.py[line:86] - INFO: {'criterion': 'gini', 'max_depth': 15, 'n_estimators': 160}
+2020-12-20 22:42:09,280 - run2.py[line:87] - INFO: RandomForestClassifier(bootstrap=True, class_weight=None, criterion='gini',
+                       max_depth=15, max_features='auto', max_leaf_nodes=None,
+                       min_impurity_decrease=0.0, min_impurity_split=None,
+                       min_samples_leaf=1, min_samples_split=2,
+                       min_weight_fraction_leaf=0.0, n_estimators=160,
+                       n_jobs=None, oob_score=False, random_state=None,
+                       verbose=0, warm_start=False)
+2020-12-20 22:42:12,018 - run2.py[line:91] - INFO: rf_grid.score: 0.9271529411764706
+2020-12-20 22:48:01,380 - run2.py[line:69] - INFO: 
+------------random_forest------------
+2020-12-20 23:19:51,444 - run2.py[line:85] - INFO: 0.9246196078431372
+2020-12-20 23:19:51,444 - run2.py[line:86] - INFO: {'criterion': 'gini', 'max_depth': 15, 'n_estimators': 160}
+2020-12-20 23:19:51,444 - run2.py[line:87] - INFO: RandomForestClassifier(bootstrap=True, class_weight=None, criterion='gini',
+                       max_depth=15, max_features='auto', max_leaf_nodes=None,
+                       min_impurity_decrease=0.0, min_impurity_split=None,
+                       min_samples_leaf=1, min_samples_split=2,
+                       min_weight_fraction_leaf=0.0, n_estimators=160,
+                       n_jobs=None, oob_score=False, random_state=None,
+                       verbose=0, warm_start=False)
+2020-12-20 23:20:00,203 - run2.py[line:91] - INFO: rf_grid.score: 0.9271294117647059
+2020-12-20 23:20:03,723 - run2.py[line:98] - INFO: 
+------------decision_tree------------
+2020-12-20 23:28:58,639 - run2.py[line:114] - INFO: 0.9229235294117647
+2020-12-20 23:28:58,639 - run2.py[line:115] - INFO: {'criterion': 'entropy', 'max_depth': 29, 'max_features': 8}
+2020-12-20 23:28:58,639 - run2.py[line:116] - INFO: DecisionTreeClassifier(class_weight=None, criterion='entropy', max_depth=29,
+                       max_features=8, max_leaf_nodes=None,
+                       min_impurity_decrease=0.0, min_impurity_split=None,
+                       min_samples_leaf=1, min_samples_split=2,
+                       min_weight_fraction_leaf=0.0, presort=False,
+                       random_state=None, splitter='best')
+2020-12-20 23:28:58,742 - run2.py[line:120] - INFO: dectree_grid.score: 0.932235294117647
+2020-12-20 23:28:58,799 - run2.py[line:193] - INFO: 
+------------XGB------------
+2020-12-20 23:35:14,842 - run2.py[line:208] - INFO: XGBClassifier_accy: 0.926
+2020-12-20 23:35:22,573 - run2.py[line:127] - INFO: 
+------------bagging------------
+2020-12-20 23:43:04,426 - run2.py[line:140] - INFO: 0.9236117647058824
+2020-12-20 23:43:04,427 - run2.py[line:141] - INFO: {'n_estimators': 185}
+2020-12-20 23:43:04,427 - run2.py[line:142] - INFO: BaggingClassifier(base_estimator=None, bootstrap=True, bootstrap_features=False,
+                  max_features=1.0, max_samples=1.0, n_estimators=185,
+                  n_jobs=None, oob_score=False, random_state=None, verbose=0,
+                  warm_start=False)
+2020-12-20 23:43:09,174 - run2.py[line:146] - INFO: bagging_grid.score: 0.9334941176470588
+2020-12-20 23:43:12,368 - run2.py[line:153] - INFO: 
+------------AdaBoost------------
+2020-12-20 23:50:37,309 - run2.py[line:167] - INFO: 0.9250039215686274
+2020-12-20 23:50:37,309 - run2.py[line:168] - INFO: {'learning_rate': 1, 'n_estimators': 185}
+2020-12-20 23:50:37,309 - run2.py[line:169] - INFO: AdaBoostClassifier(algorithm='SAMME.R', base_estimator=None, learning_rate=1,
+                   n_estimators=185, random_state=None)
+2020-12-20 23:50:40,909 - run2.py[line:173] - INFO: adaBoost_grid.score: 0.9251529411764706
+2020-12-20 23:50:43,341 - run2.py[line:216] - INFO: 
+------------extra_trees------------
+2020-12-20 23:50:43,912 - run2.py[line:222] - INFO: extraTree_accy: 0.924
+2020-12-20 23:50:44,057 - run2.py[line:229] - INFO: 
+------------voting------------
+2020-12-20 23:53:13,078 - run2.py[line:244] - INFO: voting_accy: 0.925
